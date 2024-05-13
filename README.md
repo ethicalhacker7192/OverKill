@@ -15,8 +15,11 @@ For those who believe more control means better security, customize the madness:
     python3 overkill.py -i ITERATIONS -r URANDOM -p PROBABILITYOFCHANGE -o OUTPUTFILE
 
 **ITERATIONS:** The amount of times you want to iterate over the password.
+
 **URANDOM:** How many bytes of URANDOM you want to use.
+
 **PROBABILITYOFCHANGE:** Controls the probability of the password overgoing a change (i.e., adding, removing a character, or more drastic changes.)
+
 **OUTPUTFILE:** The file you want to output the password to. (default is password.txt)
 
 ## Installation ##
